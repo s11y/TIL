@@ -24,7 +24,7 @@ class MyButtonState extends State<MyButton> {
 
     setState(() {
       displayedString = strings[counter];
-      counter = counter < 4 ? counter + 1 : 0;
+      counter = counter < strings.length - 1 ? counter + 1 : 0;
     });
   }
 
