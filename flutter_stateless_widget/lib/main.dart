@@ -69,7 +69,7 @@ class MyApp extends StatelessWidget {
 
         padding: const EdgeInsets.only(bottom: 2.0),
         child: new Center(
-          
+
           child: new SingleChildScrollView(child: column),
         ),
       ),
